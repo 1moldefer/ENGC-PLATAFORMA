@@ -82,15 +82,14 @@ export default function Login() {
                         </div>
                     )}
 
-                    <div className="flex items-center justify-between text-sm">
-                        <div className="flex items-center">
-                            {/* Checkbox could go here */}
-                        </div>
-                        <div className="text-sm">
-                            <Link to="/forgot-password" className="font-bold text-blue-600 hover:text-blue-500">
-                                Esqueceu a senha?
-                            </Link>
-                        </div>
+                    <div className="flex items-center justify-end text-sm">
+                        <Link
+                            to="/forgot-password"
+                            className="font-bold text-sm text-blue-600 hover:text-blue-700 hover:bg-blue-50 px-4 py-2 rounded-xl transition-all flex items-center gap-2"
+                        >
+                            <Lock size={16} />
+                            Recuperar Senha
+                        </Link>
                     </div>
 
                     <button

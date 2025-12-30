@@ -1,0 +1,10 @@
+{
+    "outputDirectory": "ENGC-GESTAO/dist",
+    "rewrites": [
+        {
+            "source": "/(.*)",
+            "destination": "/index.html"
+        }
+    ],
+    "framework": "vite"
+}

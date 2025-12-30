@@ -1,0 +1,11 @@
+{
+    "name": "clineng-pro-root",
+    "private": true,
+    "scripts": {
+        "dev": "cd ENGC-GESTAO && npm run dev",
+        "build": "cd ENGC-GESTAO && npm install && npm run build"
+    },
+    "engines": {
+        "node": ">=18"
+    }
+}

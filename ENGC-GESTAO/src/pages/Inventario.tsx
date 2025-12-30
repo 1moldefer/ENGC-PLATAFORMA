@@ -1,7 +1,7 @@
 
 import React, { useEffect, useState } from 'react';
 import { Search, Filter, Box, MapPin, MoreVertical, ExternalLink, QrCode, Plus, Edit2, Ban, CheckCircle, X } from 'lucide-react';
-import { supabase } from '../lib/supabaseClient';
+import { supabase } from 'src/lib/supabaseClient';
 
 export function Inventario({ onSelect }: { onSelect: (id: string) => void }) {
   const [equipamentos, setEquipamentos] = useState<any[]>([]);

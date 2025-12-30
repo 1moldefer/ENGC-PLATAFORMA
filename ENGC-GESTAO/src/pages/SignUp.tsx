@@ -1,6 +1,6 @@
 
 import { useState } from 'react'
-import { supabase } from '../lib/supabaseClient'
+import { supabase } from 'src/lib/supabaseClient'
 import { Link, useNavigate } from 'react-router-dom'
 import { Lock, Mail, User, ArrowRight, UserPlus } from 'lucide-react'
 

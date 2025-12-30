@@ -1,13 +1,13 @@
 import { BrowserRouter as Router, Routes, Route, Navigate, Outlet } from 'react-router-dom'
-import { AuthProvider, useAuth } from './contexts/AuthContext'
-import Login from './pages/Login'
-import SignUp from './pages/SignUp'
-import Dashboard from './pages/Dashboard'
-import Chamados from './pages/Chamados'
-import AppLayout from './components/layout/Layout'
+import { AuthProvider, useAuth } from 'src/contexts/AuthContext'
+import Login from 'src/pages/Login'
+import SignUp from 'src/pages/SignUp'
+import Dashboard from 'src/pages/Dashboard'
+import Chamados from 'src/pages/Chamados'
+import AppLayout from 'src/components/layout/Layout'
 
-import POPs from './pages/Pops'
-import Inventario from './pages/Inventario'
+import POPs from 'src/pages/Pops'
+import Inventario from 'src/pages/Inventario'
 
 // Placeholder components
 const OS = () => <div className="text-gray-500 p-8">Módulo de OS (Em construção)</div>

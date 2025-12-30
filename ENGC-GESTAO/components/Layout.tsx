@@ -5,7 +5,7 @@ import {
   LayoutDashboard, BookOpen, Cpu, Settings, ChevronLeft, LogOut, 
   Search, Calendar, Map, Package, FileBarChart, AlertOctagon 
 } from 'lucide-react';
-import { Screen } from '../types';
+import { Screen } from '../../types';
 
 interface LayoutProps {
   currentScreen: Screen;

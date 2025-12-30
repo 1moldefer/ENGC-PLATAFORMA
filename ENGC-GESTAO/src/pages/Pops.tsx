@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import React from 'react'
-import { supabase } from '../lib/supabaseClient'
+import { supabase } from 'src/lib/supabaseClient'
 import { Send, Bot, FileText, AlertCircle } from 'lucide-react'
 
 interface Source {

@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900;
+  }
+
+  /* Custom theme colors mapping if using CSS variables approach in v4, 
+     but for compatibility with tailwind.config.js this should be fine. 
+     If colors break, we might need to define them here or ensure config is loaded. 
+  */
+}
+
+@theme {
+  --color-primary: #0ea5e9;
+  --color-primary-foreground: #ffffff;
+  --color-secondary: #64748b;
+  --color-background: #f8fafc;
+}

@@ -1,0 +1,7 @@
+{
+  "name": "ClinEng Pro - Engenharia Clínica",
+  "description": "Gestão completa de engenharia clínica hospitalar com assistência técnica via IA.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

@@ -1,8 +1,9 @@
 
-import { useState } from 'react'
+import React, { useState } from 'react'
 import { supabase } from 'src/lib/supabaseClient'
 import { Link, useNavigate } from 'react-router-dom'
 import { Lock, Mail, ArrowRight, UserCircle2 } from 'lucide-react'
+import logo from '../assets/logo.png'
 
 export default function Login() {
     const [email, setEmail] = useState('')
@@ -33,8 +34,12 @@ export default function Login() {
         <div className="flex min-h-screen items-center justify-center bg-slate-50 px-4 py-12 sm:px-6 lg:px-8 font-sans">
             <div className="w-full max-w-md space-y-8 bg-white p-10 rounded-[40px] shadow-sm border border-slate-100">
                 <div className="text-center">
-                    <div className="w-20 h-20 bg-blue-600 text-white rounded-3xl flex items-center justify-center mx-auto mb-6 shadow-xl shadow-blue-200 transform rotate-3 hover:rotate-6 transition-transform">
-                        <UserCircle2 size={40} />
+                    <div className="flex justify-center mb-8">
+                        <img
+                            src={logo}
+                            alt="Logo da Plataforma"
+                            className="h-24 w-auto object-contain hover:scale-105 transition-transform duration-300 drop-shadow-lg"
+                        />
                     </div>
                     <h2 className="text-3xl font-black text-slate-800 tracking-tight">
                         Bem-vindo de volta!
